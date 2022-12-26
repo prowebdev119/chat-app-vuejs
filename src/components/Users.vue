@@ -12,7 +12,7 @@
       </ul>
       <p v-else class="error">
         Looks like there are no users online right now. Check again later!
-      </p>  
+      </p>
     </main>
   </div>
 </template>
@@ -37,9 +37,6 @@
     },
     methods: {
       ...mapActions('user', {
-        sendInviteByUsername: 'sendInviteByUsername',
-        sendInvite: 'sendInviteByUserId',
-        loadOnlineUsers: 'loadOnlineUsers'
       })
     },
     components: {
@@ -74,21 +71,21 @@
   .users {
     margin: 0;
   }
-  
+
   h3 {
     text-align: center
   }
-  
+
   main {
     min-height: 100vh;
     background: #cccccc;
     box-sizing: border-box;
   }
-  
+
   p.error {
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
   }
-  
+
 </style>
