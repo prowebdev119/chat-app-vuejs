@@ -37,6 +37,7 @@
     },
     methods: {
       ...mapActions('user', {
+        loadOnlineUsers: 'loadOnlineUsers'
       })
     },
     components: {
