@@ -37,6 +37,7 @@
     },
     methods: {
       ...mapActions('user', {
+        sendInvite: 'sendInviteByUserId',
         loadOnlineUsers: 'loadOnlineUsers'
       })
     },
