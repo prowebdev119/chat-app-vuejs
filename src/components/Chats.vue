@@ -16,7 +16,6 @@
   import Header from './Header.vue'
   import ChatLink from './ChatLink.vue'
   import Modal from './Modal.vue'
-  
   import { mapGetters, mapActions } from 'vuex'
   export default {
     data() {
@@ -80,16 +79,16 @@
   .invite {
     margin-bottom: 2em;
   }
-  
+
   main h3 {
     display: none;
   }
-  
+
   @media (min-width: 500px) {
     main h3 {
       display: block;
       text-align: center;
     }
   }
-  
+
 </style>
