@@ -15,6 +15,7 @@
   p {
     text-align: center;
   }
+  
   h3 {
     font-family: 'Open Sans', cursive
   }
