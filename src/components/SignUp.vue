@@ -8,6 +8,7 @@
       <button type="submit" class="block">Sign Up</button>
     </form>
     <nav class="simple">
+      <router-link to="/signin">Sign In</router-link>
       <br><router-link to="/confirm">Confirm</router-link>
     </nav>
   </main>
