@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1>AWS Chat</h1>
+    <h1>AWS Chat app</h1>
     <form class="container padded" @submit.prevent="triggerSignIn">
       <input type="text" placeholder="username" v-model="usernameC">
       <input type="password" placeholder="password" v-model="pass">
@@ -36,7 +36,6 @@
           alert('there was an error')
         })
       },
-      
       ...mapActions('cognito', {
         signIn: 'signIn'
       })
