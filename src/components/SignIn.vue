@@ -36,6 +36,7 @@
           alert('there was an error')
         })
       },
+      
       ...mapActions('cognito', {
         signIn: 'signIn'
       })
