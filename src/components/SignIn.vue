@@ -9,6 +9,7 @@
     <nav class="simple">
       <div>
         <router-link to="/signup">Sign Up</router-link>
+
       </div>
       <div>
         <router-link :to="{name: 'ForgotPassword'}">Forgot Password?</router-link>
